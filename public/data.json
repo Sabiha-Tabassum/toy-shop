@@ -1,0 +1,199 @@
+[
+    {
+       
+        "name": "Race Track Set",
+        "price": "39.99",
+        "image": "https://i.ibb.co/wpW6TRw/K-78-PO-202106110957-3715266-Qty1-1.jpg",
+        "rating": "4.5",
+        "availableQuantity": "5",
+        "subCategory": "Playset"
+       
+    },
+    {
+        
+        "name": "Ambulance",
+        "price": "14.99",
+        "image": "https://i.ibb.co/8cMVnT4/images-1.jpg",
+        "rating": "4.5",
+        "availableQuantity": "20",
+        "subCategory": "Hess"
+        
+    },
+    {
+       
+        "name": "School Bus Toy",
+        "price": "13.99",
+        "image": "https://i.ibb.co/dQbvbK8/images5.jpg",
+        "rating": "4.2",
+        "availableQuantity": "15",
+        "subCategory": "Hess"
+       
+    },
+    {
+       
+        "name": "Monster Jam Truck",
+        "price": "50",
+        "image": "https://i.ibb.co/s2zRf6t/images4.jpg",
+        "rating": "4.3",
+        "availableQuantity": "20",
+        "subCategory": "Bruder"
+        
+    },
+    {
+        
+        "name": "Fire Truck",
+        "price": "100",
+        "image": "https://i.ibb.co/dQbvbK8/images5.jpg",
+        "rating": "4.5",
+        "availableQuantity": "50",
+        "subCategory": "Bruder"
+       
+    },
+    {
+        
+        "name": "Construction Crane Truck",
+        "price": "250",
+        "image": "https://i.ibb.co/MpwRV05/photo-1594787318286-3d835c1d207f.jpg",
+        "rating": "4.1",
+        "availableQuantity": "30",
+        "subCategory": "Tonka"
+       
+    },
+
+    {
+        
+            "name": "Formula 1 Car",
+            "price": "18.99",
+            "image": "https://i.ibb.co/s2zRf6t/images4.jpg",
+            "rating": "4.5",
+            "availableQuantity": "17",
+            "subCategory": "Tonka"
+        
+    },
+
+    {
+        "name": "SUV Toy Car",
+        "price": "15.99",
+        "image": "https://i.ibb.co/Bjt0dH3/product-jpeg-500x500.webp",
+        "rating": "4.5",
+        "availableQuantity": "22",
+        "subCategory": "Lamborghini"
+        
+    },
+
+    {
+        "name": "Race Car",
+        "price": "9.99",
+        "image": "https://i.ibb.co/Zx0Pqj5/download-2.jpg",
+        "rating": "4.5",
+        "availableQuantity": "20",
+        "subCategory": "Lamborghini"
+    },
+
+    {
+        "name": "Convertible Car",
+        "price": "11.99",
+        "image": "https://i.ibb.co/s1cHZmM/set-of-6-colorful-mini-alloy-cars.jpg",
+        "rating": "4.5",
+        "availableQuantity": "25",
+        "subCategory": "Porsche"
+    },
+
+    {
+        "name": "Police Car",
+        "price": "12.99",
+        "image": "https://i.ibb.co/Tq61VBv/download-1.jpg",
+        "rating": "4.5",
+        "availableQuantity": "14",
+        "subCategory": "Porsche"
+    },
+
+    {
+        "name": "Classic Toy Car",
+        "price": "8.99",
+        "image": "https://i.ibb.co/qpDNJtr/istockphoto-469942789-170667a.jpg",
+        "rating": "4.5",
+        "availableQuantity": "30",
+        "subCategory": "Ferrari"
+
+    },
+
+    {
+        "name": "Convertible Car",
+        "price": "11.99",
+        "image": "https://i.ibb.co/7QgbmWn/download.jpg",
+        "rating": "4.5",
+        "availableQuantity": "25",
+        "subCategory": "Ferrari"
+
+    },
+
+    {
+        "name": "Monster Truck",
+        "price": "17.99",
+        "image": "https://i.ibb.co/s2zRf6t/images4.jpg",
+        "rating": "4.5",
+        "availableQuantity": "18",
+        "subCategory": "Matchbox Police Cruiser"
+    },
+
+    {
+        "name": "Toy Car Carrier",
+        "price": "14.99",
+        "image": "https://i.ibb.co/d6hHM3N/A1-OQRV17-S5-L.jpg",
+        "rating": "4.5",
+        "availableQuantity": "12",
+        "subCategory": "Matchbox Police Cruiser"
+
+    },
+
+    {
+        "name": "Construction Vehicle Set",
+        "price": "24.99",
+        "image": "https://i.ibb.co/Zx0Pqj5/download-2.jpg",
+        "rating": "4.5",
+        "availableQuantity": "8",
+        "subCategory": "Lego Police Car"
+
+    },
+
+    {
+        "name": "Pull Back Car",
+        "price": "9.99",
+        "image": "https://i.ibb.co/B37nQxf/img-3.jpg",
+        "rating": "4.5",
+        "availableQuantity": "20",
+        "subCategory": "Lego Police Car"
+    },
+
+    {
+        "name": "Race Track Set",
+        "price": "39.99",
+        "image": "https://i.ibb.co/7Qypvmf/61-Cwx-Xa-Ssk-L-AC-UF1000-1000-QL80.jpg",
+        "rating": "4.5",
+        "availableQuantity": "5",
+        "subCategory": "Hot Wheels"
+    },
+
+    {
+        "name": "Die-Cast Model Car",
+        "price": "19.99",
+        "image": "https://i.ibb.co/d5fRRqw/519w-Kc6-Lr-L-AC-UF1000-1000-QL80.jpg",
+        "rating": "4.5",
+        "availableQuantity": "15",
+        "subCategory": "Hot Wheels"
+    },
+
+    {
+        "name": "Remote Control Car",
+        "price": "29.99",
+        "image": "https://i.ibb.co/8cMVnT4/images-1.jpg",
+        "rating": "4.5",
+        "availableQuantity": "10",
+        "subCategory": "Electric"
+    }
+
+
+
+
+]
