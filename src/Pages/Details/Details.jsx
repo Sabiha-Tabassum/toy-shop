@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router-dom";
 
 const Details = () => {
     const data = useLoaderData();
-    const {name, image, price, availableQuantity, subCategory, rating, description} = data
+    const {name, image, price, availableQuantity, subCategory, rating} = data
     return (
         <div className='my-10'>
             <div className='flex justify-center items-center max-w-4xl mx-auto border-2 bg-slate-100'>
@@ -21,8 +21,8 @@ const Details = () => {
                     </div>
                     <p className='font-semibold my-2 '>rating: {rating}</p>
                     
-                    <p> <span className='font-semibold'>Description:</span> {description}</p>
-
+                    
+                    
                 </div>
             </div>
         </div>

@@ -1,12 +1,13 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider/AuthProvider";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 const SignUp = () => {
-    const { createUser, updateProfile } = useContext(AuthContext);
+    const { createUser, updateUserProfile } = useContext(AuthContext);
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
+    const navigate = useNavigate();
 
     const handleRegisterForm = event => {
         event.preventDefault();
@@ -21,9 +22,11 @@ const SignUp = () => {
             .then(result => {
                 const createdUser = result.user;
                 console.log(createdUser);
+                updateUserProfile(name,photo)
                 setError('');
                 setSuccess('User created successfully');
                 event.target.reset();
+                navigate('/')
             })
 
             .catch(error => {
@@ -32,7 +35,7 @@ const SignUp = () => {
                 setSuccess('');
             })
 
-        updateProfile();
+        
 
     }
     return (

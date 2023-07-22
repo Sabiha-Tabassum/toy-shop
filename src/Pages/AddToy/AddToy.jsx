@@ -35,7 +35,10 @@ const AddToy = () => {
 
     return (
         <div className='bg-slate-300 '>
-            <form onSubmit={handleSubmit(onSubmit)} className='ml-80'>
+            <div className="mb-5 pt-5">
+                <h1 className="text-center text-xl font-bold ">Add a Toy</h1>
+            </div>
+            <form onSubmit={handleSubmit(onSubmit)} className='ml-96'>
                 {errors.exampleRequired && <span>This field is required</span>}
                 <div className='flex'>
                     <div className='mb-5 pt-4 ml-5'>
@@ -131,16 +134,6 @@ const AddToy = () => {
                 </div>
 
 
-
-                <div>
-                    <div className='mb-5  ml-5'>
-                        <input
-                            className="p-10 rounded-lg"
-                            {...register("description")}
-                            placeholder="description"
-                        />
-                    </div>
-                </div>
 
                 <input className="bg-slate-600 p-4 ml-5 mb-2 rounded-xl text-white font-semibold cursor-pointer" value="Add Toy" type="submit" />
 

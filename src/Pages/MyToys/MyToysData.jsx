@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
 
 
-const MyToysData = ({ MyToy }) => {
-    const { _id, name, price, email, deadline, image, subCategory, availableQuantity } = MyToy
+
+const MyToysData = ({ MyToy, handleDelete }) => {
+    const { _id, title, price, email, deadline, image, subCategory, availableQuantity } = MyToy
+
+  
+
     return (
         <tr>
 
@@ -13,7 +18,7 @@ const MyToysData = ({ MyToy }) => {
                         </div>
                     </div>
                     <div>
-                        <div className="font-bold">{name}</div>
+                        <div className="font-bold">{title}</div>
                         <div className="text-sm opacity-50">{subCategory}</div>
                     </div>
                 </div>
@@ -30,6 +35,9 @@ const MyToysData = ({ MyToy }) => {
 
                 <button onClick={() => handleDelete(_id)} className="btn btn-ghost btn-xs">Delete</button>
 
+            </th>
+            <th>
+                <Link to={`/updateData/${_id}`}><button className="btn btn-ghost btn-xs">Edit</button></Link>
             </th>
 
         </tr>

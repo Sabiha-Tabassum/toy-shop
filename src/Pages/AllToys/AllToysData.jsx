@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 
 const AllToysData = ({allToy}) => {
-    const {_id, name, image, subCategory} = allToy
+    const {_id, name, image, subCategory, price} = allToy
     return (
         <div className="max-w-6xl mx-auto">
              <div className="card bg-slate-200  card-compact w-80 h-80 mb-4 shadow-xl">
@@ -10,7 +10,7 @@ const AllToysData = ({allToy}) => {
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>
                     <p>Category: {subCategory}</p>
-                    
+                    <p>Price: ${price}</p>
                    
                     <div className="card-actions justify-end">
                         <Link to={`/details/${_id}`}>

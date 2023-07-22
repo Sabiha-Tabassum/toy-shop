@@ -16,7 +16,10 @@ const Category = () => {
 
     const [tabIndex, setTabIndex] = useState(0);
     return (
-        <div>
+        <div className='max-w-6xl mx-auto'>
+            <div className='text-center my-10'>
+                <h1 className='text-2xl font-bold text-amber-500'>Shop By Category</h1>
+            </div>
             <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                 <TabList>
                     <Tab>Police Car</Tab>
@@ -26,39 +29,54 @@ const Category = () => {
                     <Tab>Porsche</Tab>
                 </TabList>
                 <TabPanel>
-                    {
-                        policeCar.map(item => <CategoryData
-                            key={item._id}
-                            item={item}></CategoryData>)
-                    }
+                    <div className='grid grid-cols-2'>
+                        {
+                            policeCar.map(item => <CategoryData
+                                key={item._id}
+                                item={item}></CategoryData>)
+                        }
+                    </div>
+
                 </TabPanel>
                 <TabPanel>
-                    {
-                        lamborghini.map(item => <CategoryData
-                            key={item._id}
-                            item={item}></CategoryData>)
-                    }
+                    <div className='grid grid-cols-2'>
+                        {
+                            lamborghini.map(item => <CategoryData
+                                key={item._id}
+                                item={item}></CategoryData>)
+                        }
+                    </div>
+
                 </TabPanel>
                 <TabPanel>
-                    {
-                        ferrari.map(item => <CategoryData
-                            key={item._id}
-                            item={item}></CategoryData>)
-                    }
+                    <div className='grid grid-cols-2'>
+                        {
+                            ferrari.map(item => <CategoryData
+                                key={item._id}
+                                item={item}></CategoryData>)
+                        }
+                    </div>
+
                 </TabPanel>
                 <TabPanel>
-                    {
-                        matchbox.map(item => <CategoryData
-                            key={item._id}
-                            item={item}></CategoryData>)
-                    }
+                    <div className='grid grid-cols-2'>
+                        {
+                            matchbox.map(item => <CategoryData
+                                key={item._id}
+                                item={item}></CategoryData>)
+                        }
+                    </div>
+
                 </TabPanel>
                 <TabPanel>
-                    {
-                        porsche.map(item => <CategoryData
-                            key={item._id}
-                            item={item}></CategoryData>)
-                    }
+                    <div className='grid grid-cols-2'>
+                        {
+                            porsche.map(item => <CategoryData
+                                key={item._id}
+                                item={item}></CategoryData>)
+                        }
+                    </div>
+
                 </TabPanel>
             </Tabs>
         </div>

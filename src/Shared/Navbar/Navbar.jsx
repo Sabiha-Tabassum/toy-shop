@@ -103,7 +103,7 @@ const Navbar = () => {
                 <Link to="/" className="">
                     <img className='w-20' src={logo} alt="" />
                 </Link>
-                <Link to='/'><h1 className='font-bold text-amber-400 ml-6'>KidS Toy Shop</h1></Link>
+                <Link to='/'><h1 className='font-bold text-amber-400 ml-6'>Toy Shop</h1></Link>
             </div>
             <div className="navbar-center hidden lg:flex ">
                 <ul className="menu menu-horizontal">
@@ -119,7 +119,7 @@ const Navbar = () => {
                     {
                         user && <div>
                             <div>
-                                <img className=' rounded-full h-10 cursor-pointer' src={user.photoURL} alt=""
+                                <img className=' rounded-full h-10 cursor-pointer' src={user.photoURL} alt="userPhoto"
                                     onMouseEnter={handleMouseEnter}
                                     onMouseLeave={handleMouseLeave} />
 
@@ -128,7 +128,7 @@ const Navbar = () => {
                     }
 
                     {
-                        isHovered && <div className='absolute left-10 top-8 bg-slate-200'>
+                        isHovered && <div className='absolute left-10 top-6 bg-slate-200'>
                             <span>{user.displayName}</span>
                         </div>
                     }
